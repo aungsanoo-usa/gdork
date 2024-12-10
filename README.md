@@ -9,25 +9,7 @@ A Python-based **Google Dork Scanner** that allows you to automate advanced Goog
 
 - **Interactive Console**: Enter your Google dork queries and number of results directly in the terminal.
 - **Customizable Output**: Saves only the links from search results in a simple text file.
-- **User-Friendly Design**: Includes a colorized banner and prompts for a smooth user experience.
 - **Ethical Scanning**: Designed for penetration testing and security auditing purposes with user responsibility in mind.
-
----
-
-## Banner
-
-The tool displays a colorized banner with the creator's name and website:
-
-```
-██████╗     ██████╗  ██████╗ ██████╗ ██╗  ██╗
-██╔════╝     ██╔══██╗██╔═══██╗██╔══██╗██║ ██╔╝
-██║  ███╗    ██║  ██║██║   ██║██████╔╝█████╔╝ 
-██║   ██║    ██║  ██║██║   ██║██╔══██╗██╔═██╗ 
-╚██████╔╝    ██████╔╝╚██████╔╝██║  ██║██║  ██╗
- ╚═════╝     ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-              Created by: Aung San Oo
-             Website: https://aungsanoo.com
-```
 
 ---
 
@@ -35,8 +17,8 @@ The tool displays a colorized banner with the creator's name and website:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/google-dork-scanner.git
-   cd google-dork-scanner
+   git clone https://github.com/aungsanoo-usa/gdork.git
+   cd gdork
    ```
 
 2. **Install Dependencies**:
@@ -47,7 +29,7 @@ The tool displays a colorized banner with the creator's name and website:
 
 3. **Run the Script**:
    ```bash
-   python3 googledork.py
+   python3 gdork.py
    ```
 
 ---
@@ -57,7 +39,7 @@ The tool displays a colorized banner with the creator's name and website:
 ### 1. Interactive Mode
 Run the script and follow the prompts:
 ```bash
-python3 googledork.py
+python3 gdork.py
 ```
 
 Example:
@@ -82,17 +64,11 @@ This tool is intended for **educational purposes only**. Use it responsibly and 
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Contact
 
 - **Author**: Aung San Oo
 - **Website**: [https://aungsanoo.com](https://aungsanoo.com)
-- **GitHub**: [https://github.com/yourusername](https://github.com/yourusername)
+- **GitHub**: [https://github.com/aungsanoo-usa](https://github.com/aungsanoo-usa)
 
 ---
 
