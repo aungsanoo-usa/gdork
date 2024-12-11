@@ -5,22 +5,11 @@ import time
 
 class GoogleDorkScanner:
     def __init__(self, output_file="dork_results.txt"):
-        """
-        Initialize the Google Dork Scanner.
 
-        :param output_file: The file where results will be saved.
-        """
         self.base_url = "https://www.google.com/search"
         self.output_file = output_file
 
     def search_dork(self, dork_query, num_results=50):
-        """
-        Search Google using the provided dork query.
-
-        :param dork_query: The Google Dork query to search.
-        :param num_results: Number of search results to retrieve.
-        :return: List of search results with links only.
-        """
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
         }
@@ -46,11 +35,7 @@ class GoogleDorkScanner:
             return f"Error: {response.status_code} - {response.reason}"
 
     def save_results(self, results):
-        """
-        Save the results of a dork query to a text file.
-
-        :param results: List of results to save (links only).
-        """
+    
         with open(self.output_file, "a") as file:
             for link in results:
                 file.write(f"{link}\n")
