@@ -13,7 +13,7 @@ class GoogleDorkScanner:
         self.base_url = "https://www.google.com/search"
         self.output_file = output_file
 
-    def search_dork(self, dork_query, num_results=10):
+    def search_dork(self, dork_query, num_results=50):
         """
         Search Google using the provided dork query.
 
