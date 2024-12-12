@@ -9,7 +9,7 @@ class GoogleDorkScanner:
         self.base_url = "https://www.google.com/search"
         self.output_file = output_file
 
-    def search_dork(self, dork_query, num_results=50):
+    def search_dork(self, dork_query, num_results=10):
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
         }
